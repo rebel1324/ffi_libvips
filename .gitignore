@@ -1,0 +1,86 @@
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+*.log
+vips/
+
+*.ai
+*.bmp
+*.eps
+*.exif
+*.gif
+*.heic
+*.heif
+*.ico
+*.indd
+*.jfif
+*.jpeg
+*.jpg
+*.pdf
+*.png
+*.psd
+*.raw
+*.svg
+*.tif
+*.tiff
+*.webp
+*.avif
+
+# nah
+.idea/*
+
+# paranoia
+*.pem
+*.crt
+*.key
+*.csr
+*.p12
+*.pfx
+*.der
+*.p7b
+*.p7s
+*.jks
+*.jceks
+*.saml
+*.auth
+*.token
